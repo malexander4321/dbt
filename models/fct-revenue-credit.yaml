@@ -1,0 +1,5 @@
+name: fct_revenue_credit
+source: snowflake
+type: table
+tableName: GTM_ANALYTICS.FCT_REVENUE_CREDIT
+primaryKey: OPPORTUNITY_ID
