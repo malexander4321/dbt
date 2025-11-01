@@ -5,5 +5,8 @@ sources:
   snowflake:
     name: Snowflake
     type: snowflake
-destinations: {}
+destinations:
+  salesforce-dev-org:
+    name: Salesforce Dev Org
+    type: salesforce
 slug: manifest-seat-signals
