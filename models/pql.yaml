@@ -1,0 +1,17 @@
+name: PQL
+source: snowflake
+type: raw_sql
+rawSql: |-
+  -- Conceptual PQL Model
+  SELECT 
+      'user-001' AS user_id, 
+      'comp-001' AS company_id, 
+      'pql_flag' AS pql_status, 
+      '2025-11-01' AS last_activity_date
+  UNION ALL 
+  SELECT 
+      'user-002', 
+      'comp-002', 
+      'pql_flag', 
+      '2025-10-31'
+primaryKey: USER_ID
